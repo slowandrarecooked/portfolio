@@ -27,7 +27,7 @@ let resume2 = document
   .addEventListener("click", NewTab);
 function NewTab() {
   window.open(
-    "https://drive.google.com/file/d/1pg4PgIBrdNWXQpgm6w8KXwMdNRVDhNoL/view?usp=sharing",
+    "https://drive.google.com/file/d/1Z8j-U9CdL6SDPrNXFmZeMlSEaEEmW3Hr/view?usp=sharing",
     "_blank"
   );
 }
