@@ -1,3 +1,5 @@
+/* display background color black on navbar scroll */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
   /* border: none; */
   outline: none;
   scroll-behavior: smooth;
-  font-family: var(--fontFamily-noto_sans);
+  font-family: "Roboto Mono", monospace;
 }
 html {
   font-size: 62.5%;
