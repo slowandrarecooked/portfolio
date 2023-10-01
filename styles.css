@@ -546,12 +546,27 @@ span {
 .footer-iconTop a:hover {
   box-shadow: 0 0 1rem var(--bg-carolina-blue);
 }
-
+.stats a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 /* ======== BREAKPOINTS */
 
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
+  }
+  .stats a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .stats img {
+    width: 80%;
   }
 }
 @media (max-width: 991px) {
