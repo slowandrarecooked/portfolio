@@ -179,10 +179,6 @@ menuIcon.onclick = () => {
 };
 
 // *=============================== github calender ==================================
-GitHubCalendar(".calendar", "Anshul");
-
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "Anshul", { responsive: true });
 
 // *=============================== resume open in new tab ==================================
 
@@ -252,21 +248,32 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "left" });
 // *===============================  typed js==================================
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Full Stack Web Developer", "MERN-StackBackend Developer"],
+  strings: ["Full Stack Web Developer", "MERN-Stack Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backdelay: 1000,
   loop: true,
 });
 
-GitHubCalendar(".calendar", "anshulgusain");
-
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "anshulgusain", { responsive: true });
-
-// Use a proxy
-GitHubCalendar(".calendar", "anshulgusain", {
-  proxy(username) {
-    return fetch(`https://your-proxy.com/github?user=${username}`);
-  },
+document.querySelector("#a").addEventListener("click", () => {
+  window.open("https://github.com/slowandrarecooked/ecotourism-travel-app");
+});
+document.querySelector("#b").addEventListener("click", () => {
+  window.open("https://frontend-sage-alpha.vercel.app");
+});
+document.querySelector("#c").addEventListener("click", () => {
+  window.open("https://github.com/slowandrarecooked/teamCarver.git");
+});
+document.querySelector("#d").addEventListener("click", () => {
+  window.open(
+    "https://6516b764de7a6771f0bc0406--chimerical-macaron-c431dc.netlify.app"
+  );
+});
+document.querySelector("#e").addEventListener("click", () => {
+  window.open("https://github.com/slowandrarecooked/Project-Nykaa.git");
+});
+document.querySelector("#f").addEventListener("click", () => {
+  window.open(
+    "https://651939a8e86c39339f8246bb--classy-torte-162c84.netlify.app"
+  );
 });

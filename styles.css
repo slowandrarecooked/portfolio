@@ -165,9 +165,10 @@ section {
 
 .home-img {
   width: 60%;
+
   margin-left: 40%;
   margin-bottom: 15%;
-  border-radius: 30px;
+  border-radius: 10px;
   /* border: solid red; */
 }
 
@@ -385,7 +386,26 @@ span {
   transform: scale(1.1);
 }
 .project-layer {
-  font-size: x-large;
+  font-size: large;
+}
+.projectlinks {
+  margin-top: 10px;
+}
+.projectlinks > button {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.projectlinks > button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.project-tech-stack {
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #github-stats {
   margin-top: 5%;
