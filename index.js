@@ -191,7 +191,7 @@ let resume2 = document
 
 function NewTab() {
   window.open(
-    "https://drive.google.com/file/d/1Z8j-U9CdL6SDPrNXFmZeMlSEaEEmW3Hr/view?usp=sharing",
+    "https://drive.google.com/file/d/1aBSHyjkmQ1booDCVlWP95308ID7v4TpV/view?usp=sharing",
     "_blank"
   );
 }
